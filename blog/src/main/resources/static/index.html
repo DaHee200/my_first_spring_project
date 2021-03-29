@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>개발자 블로그</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="다희의 첫작품">
+    <meta property="og:description" src="images/spring01.png"/>
+    <meta property="og:image" content="">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--    <link rel="stylesheet" href="./bootstrapt/css/bootstrap.min.css" />-->
+<!--    <script src="./bootstrapt/js/bootstrap.min.js"></script>-->
+    <script src="basic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+<div class="background-header">
+</div>
+
+<div class="background-body">
+
+</div>
+<div class="wrap">
+    <div class="header">
+        <header>
+
+            <nav class="top">
+                <!-- Trigger/Open The Modal -->
+<!--                <button onclick="test" id="myBtn">내발자국남기기</button>-->
+                <h1 class="main-title">Developer's Place</h1>
+                <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" >글 남기기</button>
+                <div class="bnts">
+                    <input class="btn01" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn01-1 " type="submit">Search</button>
+                </div>
+
+
+            </nav>
+        </header>
+    </div>
+</div>
+<div class="is-top">
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+            <div class="w3-container">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <div class="test">
+                        title : <input id='title' placeholder="제목" type='title'/><br>
+                        contents : <input class="field" placeholder="남기고 싶은 말" name="contents" id="contents" cols="30" rows="10">
+                         <p>name : <input id='name' placeholder="이름" type='name'/></p>
+                    <img class="cursor" src="images/send.png" alt="" onclick="writePost()">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--    <div class="card w-75">-->
+<!--        <div class="card-body">-->
+<!--            <h5 class="card-title" id="${id}-title">Card title</h5>-->
+<!--            <p class="card-text" id="${id}-contents">With supporting text below as a natural lead-in to additional content.</p>-->
+<!--            <p class="card-name" id="${id}-name"></p>-->
+<!--            <a href="/detail01?{id}" class="btn btn-primary">자세히보기</a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<div class="boxs" id="boxs01">
+<!--    <div id="${id}-title" class="title">-->
+<!--        <a href="/detail01?id=$(Json.strinify(id)}">${title}</a>-->
+<!--    </div>-->
+<!--    <div class="contents">-->
+<!--        <div id="${id}-contents" class="text">-->
+<!--            ${contents}-->
+<!--        </div>-->
+<!--        <div id="${id}-editarea" class="edit">-->
+<!--            <textarea id="${id}-textarea" class="te-edit" name="" id="" cols="30" rows="5"></textarea>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<div id="${id}-name" class="name">-->
+<!--    ${name}-->
+<!--</div>-->
+<!--    <div id="cards-box" class="area-read">-->
+<!--        <div class="card">-->
+<!--            &lt;!&ndash; date/username 영역 &ndash;&gt;-->
+<!--            <div class="metadata">-->
+<!--                <div class="date">-->
+<!--                    October 10, 2020-->
+<!--                </div>-->
+<!--                <div id="1-username" class="username">-->
+<!--                    임다희-->
+<!--                </div>-->
+<!--            </div>-->
+<!--&lt;!&ndash;             contents 조회/수정 영역&ndash;&gt;-->
+<!--            <div class="contents">-->
+<!--                <div id="1-contents" class="text">-->
+
+<!--                </div>-->
+<!--                <div id="1-editarea" class="edit">-->
+<!--                    <textarea id="1-textarea" class="te-edit" name="" id="" cols="30" rows="5"></textarea>-->
+
+
+                <!-- 버튼 영역-->
+<!--                <div class="footer">-->
+<!--                    <img id="1-edit" onclick="editPost('1')" class="icon-start-edit" src="images/edit.png" alt="">-->
+<!--                    <img id="1-delete" onclick="deleteOne('1')" class="icon-delete" src="images/delete.png" alt="">-->
+<!--                    <img id="1-submit" onclick="submitEdit('1')" class="icon-end-edit" src="images/done.png" alt="">-->
+<!--                </div>-->
+</div>
+</div>
+<!--</div>-->
+
+</body>
+
+</html>

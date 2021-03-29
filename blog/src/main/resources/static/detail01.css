@@ -1,0 +1,102 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+body {
+    margin: auto;
+    padding-top: 110px;
+    width: 900px;
+}
+/** { font-family: 'Jua', sans-serif;*/
+/*}*/
+.boxs{
+    margin: auto;
+    width: 700px;
+    height: 300px;
+}
+
+header {
+    color: white;
+    background: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 30px;
+    right: 30px;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+
+.header h1 {
+    /*font-family: 'Noto Sans KR', sans-serif;*/
+    height: 33px;
+    font-size: 42px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.79;
+    letter-spacing: -0.5px;
+    text-align: center;
+    color: black;
+}
+.main-title{
+    font-family: 'Lobster', cursive;
+}
+
+.card {
+    background-color: #ffffff;
+    text-align: center;
+    border:2px solid #666;
+    font-family: 'Jua', sans-serif;
+}
+.te-edit{
+    display: none;
+}
+
+
+a:visited { color: black; text-decoration: none; !important}
+.contents {
+    padding: 0px 23px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.contents div.edit {
+    display: none;
+}
+
+.footer {
+    position: relative;
+    height: 40px;
+}
+
+.footer img.icon-start-edit {
+    cursor: pointer;
+    position: center;
+    bottom: 14px;
+    right: 55px;
+    width: 18px;
+    height: 18px;
+}
+
+.footer img.icon-end-edit {
+    cursor: pointer;
+    position: center;
+    display: none;
+    bottom: 14px;
+    right: 55px;
+    width: 20px;
+    height: 15px;
+}
+
+.footer img.icon-delete {
+    cursor: pointer;
+    position: center;
+    bottom: 12px;
+    right: 19px;
+    width: 14px;
+    height: 18px;
+}
+
